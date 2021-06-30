@@ -1,0 +1,20 @@
+@import 'libs/mynormalize';
+
+@import 'base/variables';
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	max-width: 950px;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+@import 'blocks/text';
+@import 'blocks/form';
+@import 'blocks/media';

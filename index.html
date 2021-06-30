@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>frontend_junior</title>
+	<meta name="title" content="Frontend Junior">
+	<meta name="description" content="Тестовое задание">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="text">
+			<h1 class="text__title">Заголовок</h1>
+			<p class="text__descr">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+		</main>
+		<section class="form">
+			<form action="#" id="form">
+				<div class="form__name">
+					<input class="input" name="name" id="name" type="text" required placeholder="Иван Иванов">
+					<label class="label" for="name">Ваше имя</label>
+				</div>
+				<div class="form__phone">
+					<input class="input" name="phone" id="phone" type="phone" required placeholder="+7 926 128 1989">
+					<label class="label" for="phone">Ваш телефон</label>
+				</div>
+				<!-- <div class="form__policy policy"> -->
+					<label class="form__checkbox" for="checkbox">
+						<input name="checkbox" id="checkbox" type="checkbox" required>
+						<span>Я даю согласие на обработку персональных данных, я ознакомился c Политикой
+							конфиденциальности</span>
+					</label>
+					
+					<!-- <label for="checkbox">Я даю согласие на обработку персональных данных, я ознакомился c Политикой
+						конфиденциальности</label> -->
+					<!-- <span class="policy__text">Я даю согласие на обработку персональных данных, я ознакомился c Политикой
+						конфиденциальности</span> -->
+				<!-- </div> -->
+				<button class="btn form__btn">Отправить</button>
+			</form>
+		</section>
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+@media (max-width: 992px) {
+	.wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+	.text {
+		width: auto;
+		max-width: 558px;
+		padding: 22px 60px 29px;
+	}
+	.form {
+		width: auto;
+		max-width: 558px;
+	}
+}
+
+@media (max-width: 576px) {
+	.text {
+		padding: 16px 15px 29px;
+		&__title {
+			font-size: 32px;
+			line-height: 32px;
+		}
+		&__descr {
+			padding-top: 15px;
+		}
+	}
+	.form {
+		width: 100%;
+		padding: 46px 15px 40px;
+		&__name label {
+			top: -30px;
+			left: 0;
+		}
+		&__phone label {
+			top: 44px;
+			left: 0;
+		}
+		&__phone {
+			margin-top: 23px;
+		}
+		&__checkbox span {
+			font-size: 10px;
+			line-height: 14px;
+		}
+		&__btn {
+			width: 179.24px;
+			margin: 40px auto 0;
+			position: relative;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+	.input {
+		width: 100%;
+	}
+}
